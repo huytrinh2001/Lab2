@@ -6,4 +6,5 @@
  */
 #include "global.h"
 
-int status = A ;
+int status = B ;
+

@@ -15,4 +15,5 @@
 
 extern int status ;
 
+
 #endif /* INC_GLOBAL_H_ */
