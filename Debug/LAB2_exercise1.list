@@ -27,23 +27,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000029  00000000  00000000  00020010  2**0
                   CONTENTS, READONLY
- 12 .debug_info   00008570  00000000  00000000  00020039  2**0
+ 12 .debug_info   000085dd  00000000  00000000  00020039  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 0000171a  00000000  00000000  000285a9  2**0
+ 13 .debug_abbrev 00001758  00000000  00000000  00028616  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 000009a0  00000000  00000000  00029cc8  2**3
+ 14 .debug_aranges 000009a8  00000000  00000000  00029d70  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_macro  0001647f  00000000  00000000  0002a668  2**0
+ 15 .debug_macro  0001647f  00000000  00000000  0002a718  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_line   00009a3a  00000000  00000000  00040ae7  2**0
+ 16 .debug_line   00009a54  00000000  00000000  00040b97  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_str    00081dbc  00000000  00000000  0004a521  2**0
+ 17 .debug_str    00081dea  00000000  00000000  0004a5eb  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .comment      00000053  00000000  00000000  000cc2dd  2**0
+ 18 .comment      00000053  00000000  00000000  000cc3d5  2**0
                   CONTENTS, READONLY
- 19 .debug_ranges 000008c0  00000000  00000000  000cc330  2**3
+ 19 .debug_ranges 000008c8  00000000  00000000  000cc428  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_frame  000026a0  00000000  00000000  000ccbf0  2**2
+ 20 .debug_frame  000026c8  00000000  00000000  000cccf0  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -77,10 +77,10 @@ Disassembly of section .text:
  8000148:	08001f80 	.word	0x08001f80
 
 0800014c <reset7SEG>:
-
-
-#include "led_display.h"
-#include "main.h"
+	default :
+		break;
+	}
+}
 
 void reset7SEG(){
  800014c:	b580      	push	{r7, lr}

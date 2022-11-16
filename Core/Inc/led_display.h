@@ -8,7 +8,7 @@
 #ifndef INC_LED_DISPLAY_H_
 #define INC_LED_DISPLAY_H_
 
-
+void update7SEG (int);
 void reset7SEG();
 void display7SEG(int);
 
