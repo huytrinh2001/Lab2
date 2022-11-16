@@ -6,4 +6,4 @@
  */
 #include "global.h"
 
-int status = LEFT ;
+int status = A ;

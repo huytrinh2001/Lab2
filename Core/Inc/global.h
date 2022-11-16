@@ -8,8 +8,10 @@
 #ifndef INC_GLOBAL_H_
 #define INC_GLOBAL_H_
 
-#define LEFT  1
-#define RIGHT 2
+#define A	  0
+#define B 	  1
+#define C     2
+#define D     3
 
 extern int status ;
 
