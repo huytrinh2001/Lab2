@@ -24,12 +24,12 @@ void display7SEG(int num){
 	switch (num){
 	case 0:
 		{
-			HAL_GPIO_WritePin(SEG0_A_GPIO_Port, SEG0_A_Pin, 1);
-			HAL_GPIO_WritePin(SEG1_B_GPIO_Port, SEG1_B_Pin, 1);
-			HAL_GPIO_WritePin(SEG2_C_GPIO_Port, SEG2_C_Pin, 1);
-			HAL_GPIO_WritePin(SEG3_D_GPIO_Port, SEG3_D_Pin, 1);
-			HAL_GPIO_WritePin(SEG4_E_GPIO_Port, SEG4_E_Pin, 1);
-			HAL_GPIO_WritePin(SEG5_F_GPIO_Port, SEG5_F_Pin, 1);
+			HAL_GPIO_WritePin(SEG0_A_GPIO_Port, SEG0_A_Pin, 0);
+			HAL_GPIO_WritePin(SEG1_B_GPIO_Port, SEG1_B_Pin, 0);
+			HAL_GPIO_WritePin(SEG2_C_GPIO_Port, SEG2_C_Pin, 0);
+			HAL_GPIO_WritePin(SEG3_D_GPIO_Port, SEG3_D_Pin, 0);
+			HAL_GPIO_WritePin(SEG4_E_GPIO_Port, SEG4_E_Pin, 0);
+			HAL_GPIO_WritePin(SEG5_F_GPIO_Port, SEG5_F_Pin, 0);
 			HAL_GPIO_WritePin(SEG6_G_GPIO_Port, SEG6_G_Pin, 1);
 			break;
 		}

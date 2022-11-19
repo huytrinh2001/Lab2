@@ -8,9 +8,9 @@
 #ifndef INC_GLOBAL_H_
 #define INC_GLOBAL_H_
 
-#define LEFT  1
-#define RIGHT 2
+extern int second ;
+extern int minute;
+extern int hour;
 
-extern int status ;
 
 #endif /* INC_GLOBAL_H_ */

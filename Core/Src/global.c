@@ -6,4 +6,6 @@
  */
 #include "global.h"
 
-int status = LEFT ;
+int second = 55;
+int minute = 59;
+int hour = 23;
